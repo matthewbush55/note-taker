@@ -1,7 +1,6 @@
 const notes = require("express").Router();
 const util = require("util");
 const fs = require("fs");
-const app = require(".");
 
 const readFromFile = util.promisify(fs.readFile);
 // used to create a new id for each individual note
@@ -71,7 +70,7 @@ notes.post("", (req, res) => {
 });
 
 // DELETE request
-notes.delete("", (req, res) => {
+notes.delete("/*", (req, res) => {
   console.log(req.params[0]);
   console.log(`${req.method} request received for /api/notes`);
   const deletedNote = req.params[0];

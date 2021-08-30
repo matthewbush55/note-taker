@@ -1,20 +1,23 @@
-# My Project
+# Note Taker
 
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents:
 
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Tests](#tests)
 - [Contributing](#contributing)
 - [License](#license)
 - [Questions](#questions)
 
 ## Description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id velit rhoncus, hendrerit nisi a, cursus libero. Cras accumsan elementum arcu eget luctus. In nec ullamcorper lectus, at ultricies augue. Ut in tortor ex. Suspendisse finibus, mauris non fermentum feugiat, ex nunc ornare metus, vel sollicitudin purus diam efficitur leo. Vestibulum et ligula nulla. Cras vestibulum vehicula sagittis. Donec sem nisl, consequat eu scelerisque eget, tincidunt dapibus ante. Nulla suscipit enim sit amet felis aliquet maximus. Morbi ac sem ac nunc ultrices aliquet a sit amet ligula.
+This application allows users to use a web interface to create, save and delete notes with titles and content. It uses `node.js` & `JavaScript`, and `express.js` The app also allows users to navigate to notes that were taken previously.
+
+Live application hosted on Heroku: https://note-taker-app-mrb.herokuapp.com/
+
+![Walkthrough](assets/images/Walkthrough.gif)
 
 ## Installation
 
@@ -24,21 +27,15 @@ To install necessary dependencies, run the following command:
 
 ## Usage
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id velit rhoncus, hendrerit nisi a, cursus libero. Cras accumsan elementum arcu eget luctus. In nec ullamcorper lectus, at ultricies augue. Ut in tortor ex. Suspendisse finibus, mauris non fermentum feugiat, ex nunc ornare metus, vel sollicitudin purus diam efficitur leo. Vestibulum et ligula nulla. Cras vestibulum vehicula sagittis. Donec sem nisl, consequat eu scelerisque eget, tincidunt dapibus ante. Nulla suscipit enim sit amet felis aliquet maximus. Morbi ac sem ac nunc ultrices aliquet a sit amet ligula.
-
-## Tests
-
-To perform tests, run the following command:
-
-    npm run tests
+After pulling down the repository, start the express server by running `node server.js`. Then, open a browser and navigate to http://localhost:3001 (a live version is hosted at https://note-taker-app-mrb.herokuapp.com/). You will be prompted to open the app by clicking "Get Started." To create a new note, click in the "Note Title" section and add a title. Then, click in the "Note Text" section and add the contents of your note. When both the title and content are filled in, a "save" button will appear in the upper-right corner, which can be clicked to save the note to the list. To delete a note, click the trash can icon next to the note you want to delete. Click on previous notes to pull up their content.
 
 ## License
 
-This project is licensed under [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0)
+This project is licensed under [License: MIT](https://opensource.org/licenses/MIT)
 
 ## Contributing
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id velit rhoncus, hendrerit nisi a, cursus libero. Cras accumsan elementum arcu eget luctus. In nec ullamcorper lectus, at ultricies augue. Ut in tortor ex. Suspendisse finibus, mauris non fermentum feugiat, ex nunc ornare metus, vel sollicitudin purus diam efficitur leo. Vestibulum et ligula nulla. Cras vestibulum vehicula sagittis. Donec sem nisl, consequat eu scelerisque eget, tincidunt dapibus ante. Nulla suscipit enim sit amet felis aliquet maximus. Morbi ac sem ac nunc ultrices aliquet a sit amet ligula.
+To contribute to this project (or any others), please contact me using the information in the Questions section below or by submitting a pull request.
 
 > For more information on project contribution guidelines, please reference [Contributor Covenant](https://www.contributor-covenant.org/)
 
@@ -46,6 +43,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id velit rhon
 
 If you have any questions, please feel free to reach out. Thanks!
 
-GitHub: https://github.com/test
+GitHub: https://github.com/matthewbush55
 
-Email: test@test.com
+Email: matthewbush55@gmail.com

@@ -15,6 +15,7 @@ app.use("/api", api);
 // set public dir for default routing
 app.use(express.static("public"));
 
+// retrieve home page and starting notes page
 app.get("/notes", (req, res) => res.sendFile(path.join(__dirname, "/public/notes.html")));
 app.get("*", (req, res) => res.sendFile(path.join(__dirname, "/public/index.html")));
 
